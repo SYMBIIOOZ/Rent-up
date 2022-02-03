@@ -1,0 +1,21 @@
+.section-home {
+    display: flex;
+    height: 80vh;
+    background-image: url('../images/banner.png');
+    background-position: center;
+    background-size: cover;
+    color: white;
+
+    .section-home-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
+}
+
+

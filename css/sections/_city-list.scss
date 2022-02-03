@@ -1,0 +1,78 @@
+.section  {
+    
+    & .section-bg-white{
+        
+        .section-header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 0 15rem;
+            width: 100%;
+            justify-content: center;
+            
+            
+            h1 , h2 , h3 , h4 , h5 , h6 {
+                text-align: center;
+                align-items: center;
+                
+            }
+        }
+        
+    }
+        
+        .property-location {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            
+            color: white;
+            
+            z-index: 3;
+            
+            .number-property {
+                display: flex;
+                justify-content:space-between;
+                gap: 2em;
+                
+                
+            }
+            
+            
+            .card-city {
+                width: 370px;
+                height:310px;
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: relative;
+                
+                
+                .background-opacity{
+                    display: block;
+                    background-color: black;
+                    position: absolute;
+                    width: 92%;
+                    height: 92%;
+                    opacity: 0.4;
+                    border-radius: 10px;
+                    
+                    
+                    
+                    
+                }
+                
+                h4 {
+                    margin: 0;
+                }
+                .text{
+                    z-index: 10;;
+                }
+            }
+            
+            
+            
+            
+        }
+}
