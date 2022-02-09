@@ -10,7 +10,13 @@
         background:#122947 url(/images/pattern.png) no-repeat;
        
     }
-
+    &.section-bg-green {
+        background-color: #27ae60;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
 
     .section-header {
         display: flex;

@@ -12,6 +12,7 @@
     font-size: 1rem;
     color: white;
     transition: 0.5s;
+    text-align: center;
     
     &.back-to-top  {
         height:30px;
@@ -58,6 +59,22 @@
         &:hover {
             color: variables.$color-secondary;
         }
+    }
+    &.btn-white {
+        background-color: white;
+        color: #333640;
+        border: none;
+        box-shadow: 0px 0px 0px 5px rgb(255 255 255 / 20%);
+        padding: 18px 40px;
+        border-radius:50px;
+        font-weight: normal;
+        width:11rem;
+        height:1.5rem;
+        margin-right: 1rem;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
     }
 
     &:hover {
