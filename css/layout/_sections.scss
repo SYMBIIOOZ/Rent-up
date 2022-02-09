@@ -4,7 +4,13 @@
     &.section-bg-grey {
         background-color: lightgrey;
     }
-    
+    &.section-bg-blue {
+     
+        background-size: cover;
+        background:#122947 url(/images/pattern.png) no-repeat;
+       
+    }
+
 
     .section-header {
         display: flex;

@@ -1,20 +1,12 @@
 .section {
 
-    .section-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        
-       
-    }
+    
 
-    .container-blue {
-        width: auto;        
+    .container-award {
+               
         height: 25rem;
-        background-size: cover;
-        background:#122947 url(/images/pattern.png) no-repeat;
         display: flex;
+        justify-content:center;
 
     
         
