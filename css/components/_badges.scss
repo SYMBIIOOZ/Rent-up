@@ -1,14 +1,31 @@
 .badge {
     padding: 0.5rem 1rem;
     border-radius: 2px;
-
+    
     &.badge-warning {
         background-color: #FFF5E5;
         color: #FF9E10;
     }
-
+    
     &.badge-success {
         background-color: #E8F8F1;
         color: #25B579;
     }
+}
+
+.new {
+    margin-left: 4px;
+    background: #27ae60;
+    padding: 3px 10px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
+}
+.update {
+    margin-left: 4px;
+    background: #ff9800;
+    padding: 3px 10px;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 13px;
 }

@@ -1,5 +1,8 @@
+@use '../abstracts/mixins';
+
 .section {
     padding: 2rem 0;
+    
 
     &.section-bg-grey {
         background-color: lightgrey;
@@ -13,11 +16,19 @@
     &.section-bg-green {
         background-color: #27ae60;
         display:flex;
+
         align-items: center;
-        justify-content: center;
+        
         margin-top: 3rem;
+        flex-direction: row;
     }
 
+    &.section-footer {
+        display: flex;
+        background-color:#1d2636;
+        align-items: center;
+
+    }    
     .section-header {
         display: flex;
         flex-direction: column;
