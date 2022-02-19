@@ -1,5 +1,6 @@
 @import 'normalize.css';
 @import 'font-awesome/scss/font-awesome';
+@import 'themify-icons/_themify-icons';
 
 @import './base/elements';
 @import './components/buttons';
@@ -17,3 +18,4 @@
 @import './sections/sliders-profil';
 @import './sections/award';
 @import './sections/pre-footer-green.scss';
+@import './sections/section-agent';
